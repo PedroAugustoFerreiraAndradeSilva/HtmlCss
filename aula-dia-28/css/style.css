@@ -1,0 +1,67 @@
+body {
+    background: rgb(120, 225, 243);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    /* Esse altera a cor das letras */
+    background: black;
+    /* Background altera o fundo da letra  */
+    text-align: center;
+    /* centraliza a letra */
+    font-size: 36px;
+    /* tamanhom que quero a letra */
+    border: 5px solid red;
+    /* Borda e cor que quero que3 seja a borda */
+    border-radius: 20px;
+    /* Esse o tamanho que quero que seja a bordar */
+
+    margin: 80px 50px;
+    /* top&bottom - left&right */
+
+    /* margem-top - embaixo */
+    /* margem-bottom - encima */
+    /* margem-left - esquerda */
+    /* margem-right - direita */
+
+    padding: 10px 0px;
+
+
+}
+
+
+h2 {
+    background: rgb(252, 255, 255);
+    color: rgb(255, 138, 5);
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgb(255, 23, 23);
+    /* é uma sombra que fica ao redor do texto */
+}
+
+#subTitulo1 {
+    background: rgb(240, 235, 234);
+
+}
+
+#subTitulo2 {
+    background: rgb(255, 255, 255);
+}
+
+.sombra {
+    box-shadow: 3px 5px 20px rgb(243, 64, 64);
+}
+
+a {
+    background: black;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
